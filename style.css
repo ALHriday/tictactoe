@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    gap: 5px;
+}
+.game h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+.game-btn{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 5px;
+    padding: 3px;
+}
+.game-btn button{
+    height: 120px;
+    color: white;
+    background-color: rgba(143, 143, 143, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.all-counters-output{
+    display: flex;
+    gap: 40px;
+}
+.countX-output{
+    color: red;
+}
+.countO-output{
+    color: green;
+}
+.reset-btn-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin: auto;
+}
+.reset-btn{
+    padding: 12px 30px;
+}
+.result{
+    font-size: 35px;
+    padding: 5px 10px;
+    color: white;
+}
