@@ -7,12 +7,16 @@ toggle.addEventListener("click", function () {
         body.style.backgroundColor = "black";
         toggle.style.backgroundColor = "white";
         heading.style.color = "white";
+        toggle.style.border = "2px solid white";
+        toggle.style.background = "linear-gradient(to left, black 50%, white 50%)";
     } else {
         body.style.backgroundColor = "white";
         toggle.style.backgroundColor = "black";
+        toggle.style.border = "2px solid black";
         heading.style.color = "black";
+        toggle.style.background = "linear-gradient(to right, black 50%, white 50%)";
     }
-})
+});
 
 
 let boxs = document.querySelectorAll(".game-btn button");
