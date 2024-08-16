@@ -81,7 +81,7 @@ for (let i = 0; i < boxs.length; i++) {
                 result.style.backgroundColor = "red";
                 gameBtn.style.border = "5px solid red";
                 countX++;
-                countXoutput.innerHTML = `X-Won ${countX} Times`;
+                countXoutput.innerHTML = `Player-X Won ${countX} Times`;
                 disabledBtn();
                 
             }else if (boxs[0].innerHTML == "O" && boxs[1].innerHTML == "O" && boxs[2].innerHTML == "O" ||
@@ -97,7 +97,7 @@ for (let i = 0; i < boxs.length; i++) {
                 result.style.backgroundColor = "green";
                 gameBtn.style.border = "5px solid green";
                 countO++;
-                countOoutput.innerHTML = `O-Won ${countO} Times`;
+                countOoutput.innerHTML = `Player-O Won ${countO} Times`;
                 disabledBtn();
             } else {
                 result.innerHTML = "Draw";

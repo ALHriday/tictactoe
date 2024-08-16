@@ -53,7 +53,7 @@
 }
 .all-counters-output{
     display: flex;
-    gap: 40px;
+    gap: 10px;
 }
 .countX-output{
     color: red;
