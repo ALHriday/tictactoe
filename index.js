@@ -1,3 +1,20 @@
+let toggle = document.querySelector(".toggle");
+let body = document.querySelector("body");
+let heading = document.querySelector(".game h1");
+
+toggle.addEventListener("click", function () {
+    if (body.style.backgroundColor == "white") {
+        body.style.backgroundColor = "black";
+        toggle.style.backgroundColor = "white";
+        heading.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        toggle.style.backgroundColor = "black";
+        heading.style.color = "black";
+    }
+})
+
+
 let boxs = document.querySelectorAll(".game-btn button");
 let resetBtn = document.querySelector(".reset-btn");
 let result = document.querySelector(".result");
